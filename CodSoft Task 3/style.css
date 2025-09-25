@@ -1,0 +1,46 @@
+/* General */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding-top: 70px; /* Avoid navbar overlap */
+  background-color:black;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.navbar-dark .nav-link.active,
+.navbar-dark .nav-link:hover {
+  color: #00c6ff !important;
+  transition: 0.3s ease;
+}
+
+/* Hero (Home) */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color:blue;
+  min-height: 90vh;
+  padding: 100px 20px;
+}
+.hero .btn {
+  margin: 5px;
+}
+
+/* Quiz Cards */
+.quiz-card {
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.quiz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.footer-dark {
+  background-color: #000; /* solid black background */
+  color: #ffffff;          /* white text */
+}
+
+

@@ -1,0 +1,84 @@
+/* ===== General ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 70px; /* to avoid navbar overlap */
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* ===== Navbar ===== */
+.navbar-dark .nav-link.active,
+.navbar-dark .nav-link:hover {
+  color: #00c6ff !important;
+  transition: color 0.3s ease;
+}
+
+/* ===== Hero (Home) ===== */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  min-height: 90vh;
+  padding: 100px 20px;
+}
+.hero .btn {
+  margin: 5px;
+}
+
+/* Search box */
+#home-search form {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== Browse Jobs ===== */
+#browse .job-card {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#browse .job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Candidates & Employers Cards ===== */
+#candidates .card,
+#employers .card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#candidates .card:hover,
+#employers .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Contact ===== */
+#contact {
+  background-color: #f0f4f7;
+}
+#contact form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* Smooth scroll (optional) */
+html {
+  scroll-behavior: smooth;
+}
+
