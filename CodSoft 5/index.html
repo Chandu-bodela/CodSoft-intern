@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Management Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Project Management Dashboard</h1>
+    <nav>
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#tasks">Tasks</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#messages">Messages</a></li>
+        <li><a href="#logout">Log Out</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ✅ Profile Section -->
+    <section id="profile" class="profile-section">
+      <h2>My Profile</h2>
+      <img src="profile.jpg" alt="Profile Picture">
+      <p><strong>Name:</strong> Chandu✨🤍 Bodela</p>
+      <p><strong>Email:</strong> chandu@example.com</p>
+      <p><strong>Role:</strong> Team Lead / Full-Stack Developer</p>
+      <p>Welcome back! This is your personal workspace where you can monitor tasks, track 
+         projects, and stay updated with team activities. Update your profile anytime to 
+         keep your details accurate.</p>
+    </section>
+
+    <!-- ✅ Tasks Section -->
+    <section id="tasks" class="tasks-section">
+      <h2>My Tasks</h2>
+      <p>Stay productive by keeping track of your upcoming tasks and deadlines. Mark tasks as 
+         completed once finished to maintain an organized workflow.</p>
+      <ul class="task-list">
+        <li class="task-item"><strong>Design Landing Page</strong> – Due: 28 Sept</li>
+        <li class="task-item"><strong>Database Optimization</strong> – Due: 30 Sept</li>
+        <li class="task-item"><strong>Write API Documentation</strong> – Due: 2 Oct</li>
+      </ul>
+    </section>
+
+    <!-- ✅ Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <p>Manage all your ongoing and completed projects here. You can monitor progress, 
+         check team assignments, and review deadlines.</p>
+      <ul class="project-list">
+        <li class="project-item"><strong>Project Management Tool</strong> – 70% complete</li>
+        <li class="project-item"><strong>E-commerce Website</strong> – 40% complete</li>
+        <li class="project-item"><strong>AI Quiz Platform</strong> – Planning Stage</li>
+      </ul>
+    </section>
+
+    <!-- ✅ Messages Section -->
+    <section id="messages" class="messages-section">
+      <h2>Messages</h2>
+      <p>Communicate with your team members. Share updates, feedback, or quick reminders 
+         to keep everyone on the same page.</p>
+      <ul class="message-list">
+        <li class="message-item"><strong>From Sam:</strong> “Please review the API changes.”</li>
+        <li class="message-item"><strong>From Priya:</strong> “UI mockups are ready for review.”</li>
+        <li class="message-item"><strong>From Alex:</strong> “Client feedback call scheduled tomorrow.”</li>
+      </ul>
+      <textarea placeholder="Type your message here..."></textarea>
+      <button class="button">Send Message</button>
+    </section>
+
+    <!-- Logout Section -->
+<section id="logout" class="profile-section">
+  <h2>Log Out</h2>
+  <p>Finished your work for the day? Click below to securely log out of your account.</p>
+  <button id="logout-button" class="button">Log Out</button>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Project Management Tool. All rights reserved.</p>
+  </footer>
+</body>
+</html>
